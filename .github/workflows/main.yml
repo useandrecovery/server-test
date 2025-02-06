@@ -22,5 +22,4 @@ jobs:
 
     - name: Run Flask Server
       run: |
-        nohup python main.py &
-        sleep 5
+        nohup python main.py
