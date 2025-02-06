@@ -22,7 +22,7 @@ jobs:
 
     - name: Run Flask Server
       run: |
-        nohup python app.py &
+        nohup python main.py &
         sleep 5
 
     - name: Test Server Response
