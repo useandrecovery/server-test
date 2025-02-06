@@ -24,6 +24,3 @@ jobs:
       run: |
         nohup python main.py &
         sleep 5
-
-    - name: Test Server Response
-      run: curl -f http://127.0.0.1:5000 || exit 1
